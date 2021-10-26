@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+.titulo h1 {
+    color: #fc996f;
+    font-size: 60px;
+}
+
+.lancamentos {
+    color: #fff;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.series {
+    color: #fff;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.documentarios {
+    color: #fff;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-item a.nav-link:hover {
+    color: #fc996f;
+}
+
+.navbar-nav .nav-item a.nav-link {
+    margin-left: 10px;
+    font-size: 1.2em;
+    color: #fff;
+    
+}
+.nav-item {
+    padding: 2px;
+}
+
+.filme-procurado {
+    color: #fff;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+.carousel-control-prev-icon {
+    padding-top: 10px;
+
+}
+
+.zoom {
+    overflow: hidden;
+}
+
+.zoom img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3;
+}
+
+.zoom:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
